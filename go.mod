@@ -7,7 +7,7 @@ require (
 	gioui.org v0.0.0-20211016064351-4d22a926a9dd
 	gioui.org/cmd v0.0.0-20210925100615-41f3a7e74ee6
 	golang.org/x/exp v0.0.0-20210722180016-6781d3edade3
-	golang.org/x/sys v0.0.0-20211205182925-97ca703d548d
+	golang.org/x/sys v0.1.0
 	golang.zx2c4.com/wireguard v0.0.0-20211116201604-de7c702ace45
 	inet.af/netaddr v0.0.0-20211027220019-c74959edd3b6
 	tailscale.com v1.1.1-0.20220121202700-0ada42684b51
