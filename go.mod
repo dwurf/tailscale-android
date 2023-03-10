@@ -6,58 +6,64 @@ require (
 	eliasnaur.com/font v0.0.0-20200617114307-e02d32decb4b
 	gioui.org v0.0.0-20211016064351-4d22a926a9dd
 	gioui.org/cmd v0.0.0-20210925100615-41f3a7e74ee6
-	golang.org/x/exp v0.0.0-20210722180016-6781d3edade3
-	golang.org/x/sys v0.0.0-20211205182925-97ca703d548d
-	golang.zx2c4.com/wireguard v0.0.0-20211116201604-de7c702ace45
+	golang.org/x/exp/shiny v0.0.0-20230307190834-24139beb5833
+	golang.org/x/sys v0.0.0-20220728004956-3c1f35247d10
+	golang.zx2c4.com/wireguard v0.0.0-20220904105730-b51010ba13f0
 	inet.af/netaddr v0.0.0-20211027220019-c74959edd3b6
-	tailscale.com v1.1.1-0.20220121202700-0ada42684b51
+	tailscale.com v1.32.3
 )
 
 require (
+	filippo.io/edwards25519 v1.0.0-rc.1 // indirect
 	gioui.org/cpu v0.0.0-20210817075930-8d6a761490d2 // indirect
 	gioui.org/shader v1.0.4 // indirect
-	github.com/BurntSushi/toml v0.4.1 // indirect
 	github.com/akavel/rsrc v0.10.1 // indirect
 	github.com/akutz/memconn v0.1.0 // indirect
 	github.com/alexbrainman/sspi v0.0.0-20210105120005-909beea2cc74 // indirect
 	github.com/coreos/go-iptables v0.6.0 // indirect
+	github.com/fxamacker/cbor/v2 v2.4.0 // indirect
 	github.com/go-ole/go-ole v1.2.6 // indirect
 	github.com/godbus/dbus/v5 v5.0.6 // indirect
 	github.com/golang/groupcache v0.0.0-20210331224755-41bb18bfe9da // indirect
 	github.com/google/btree v1.0.1 // indirect
-	github.com/google/go-cmp v0.5.6 // indirect
-	github.com/insomniacslk/dhcp v0.0.0-20211026125128-ad197bcd36fd // indirect
-	github.com/josharian/native v0.0.0-20200817173448-b6b71def0850 // indirect
-	github.com/jsimonetti/rtnetlink v0.0.0-20211203074127-fd9a11f42291 // indirect
-	github.com/klauspost/compress v1.13.6 // indirect
-	github.com/mdlayher/netlink v1.4.2 // indirect
-	github.com/mdlayher/sdnotify v0.0.0-20210228150836-ea3ec207d697 // indirect
-	github.com/mdlayher/socket v0.0.0-20211102153432-57e3fa563ecb // indirect
+	github.com/google/go-cmp v0.5.8 // indirect
+	github.com/hdevalence/ed25519consensus v0.0.0-20220222234857-c00d1f31bab3 // indirect
+	github.com/insomniacslk/dhcp v0.0.0-20211209223715-7d93572ebe8e // indirect
+	github.com/josharian/native v1.0.0 // indirect
+	github.com/jsimonetti/rtnetlink v1.1.2-0.20220408201609-d380b505068b // indirect
+	github.com/klauspost/compress v1.15.4 // indirect
+	github.com/kortschak/wol v0.0.0-20200729010619-da482cc4850a // indirect
+	github.com/mdlayher/genetlink v1.2.0 // indirect
+	github.com/mdlayher/netlink v1.6.0 // indirect
+	github.com/mdlayher/sdnotify v1.0.0 // indirect
+	github.com/mdlayher/socket v0.2.3 // indirect
 	github.com/mitchellh/go-ps v1.0.0 // indirect
 	github.com/pkg/errors v0.9.1 // indirect
-	github.com/tailscale/certstore v0.0.0-20210528134328-066c94b793d3 // indirect
+	github.com/tailscale/certstore v0.1.1-0.20220316223106-78d6e1c49d8d // indirect
+	github.com/tailscale/golang-x-crypto v0.0.0-20221009170451-62f465106986 // indirect
 	github.com/tailscale/goupnp v1.0.1-0.20210804011211-c64d0f06ea05 // indirect
 	github.com/tailscale/netlink v1.1.1-0.20211101221916-cabfb018fe85 // indirect
 	github.com/tcnksm/go-httpstat v0.2.0 // indirect
-	github.com/u-root/uio v0.0.0-20210528114334-82958018845c // indirect
-	github.com/vishvananda/netlink v1.1.1-0.20211101163509-b10eb8fe5cf6 // indirect
+	github.com/u-root/uio v0.0.0-20220204230159-dac05f7d2cb4 // indirect
+	github.com/vishvananda/netlink v1.1.1-0.20211118161826-650dca95af54 // indirect
 	github.com/vishvananda/netns v0.0.0-20211101163701-50045581ed74 // indirect
+	github.com/x448/float16 v0.8.4 // indirect
 	go4.org/intern v0.0.0-20211027215823-ae77deb06f29 // indirect
 	go4.org/mem v0.0.0-20210711025021-927187094b94 // indirect
-	go4.org/unsafe/assume-no-moving-gc v0.0.0-20211027215541-db492cf91b37 // indirect
-	golang.org/x/crypto v0.0.0-20211202192323-5770296d904e // indirect
+	go4.org/netipx v0.0.0-20220725152314-7e7bdc8411bf // indirect
+	go4.org/unsafe/assume-no-moving-gc v0.0.0-20220617031537-928513b29760 // indirect
+	golang.org/x/crypto v0.0.0-20220427172511-eb4f295cb31f // indirect
+	golang.org/x/exp v0.0.0-20220722155223-a9213eeb770e // indirect
 	golang.org/x/image v0.0.0-20210628002857-a66eb6448b8d // indirect
-	golang.org/x/mod v0.5.1 // indirect
-	golang.org/x/net v0.0.0-20211205041911-012df41ee64c // indirect
-	golang.org/x/sync v0.0.0-20210220032951-036812b2e83c // indirect
+	golang.org/x/mod v0.6.0-dev.0.20220419223038-86c51ed26bb4 // indirect
+	golang.org/x/net v0.0.0-20221002022538-bcab6841153b // indirect
+	golang.org/x/sync v0.0.0-20220601150217-0de741cfad7f // indirect
 	golang.org/x/term v0.0.0-20210927222741-03fcf44c2211 // indirect
-	golang.org/x/text v0.3.7 // indirect
+	golang.org/x/text v0.3.8-0.20211105212822-18b340fc7af2 // indirect
 	golang.org/x/time v0.0.0-20211116232009-f0f3c7e86c11 // indirect
-	golang.org/x/tools v0.1.8 // indirect
-	golang.org/x/xerrors v0.0.0-20200804184101-5ec99f83aff1 // indirect
+	golang.org/x/tools v0.1.11 // indirect
 	golang.zx2c4.com/wintun v0.0.0-20211104114900-415007cec224 // indirect
-	golang.zx2c4.com/wireguard/windows v0.4.10 // indirect
-	honnef.co/go/tools v0.2.2 // indirect
-	inet.af/netstack v0.0.0-20211120045802-8aa80cf23d3c // indirect
+	golang.zx2c4.com/wireguard/windows v0.5.3 // indirect
+	gvisor.dev/gvisor v0.0.0-20220817001344-846276b3dbc5 // indirect
 	nhooyr.io/websocket v1.8.7 // indirect
 )
